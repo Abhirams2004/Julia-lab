@@ -1,0 +1,27 @@
+usig Printf
+function position(ch::Char)
+if isuppercase(ch) 
+   return ch-'A'+1
+   END
+if islowercase(ch)
+   return ch-'a'+1
+   end
+return 0
+end
+function charFrequency(inn::IOStream)
+LettersInAlphaet=26
+Freq=fill(0,LettersInAlphabet)
+while !eof(inn)
+n=position(read(in,char))
+if n!=0 Freqn]+=1
+end
+end
+println("Letter Frequency\n")
+for ch ='a':'z'
+@printf("%4c%8d\n",ch,Freq[ch-'a'+1])
+end
+close(inn)
+end
+inn=open("passage.txt","r")
+charFrequency(inn)
+
