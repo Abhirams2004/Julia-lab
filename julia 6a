@@ -1,4 +1,4 @@
-usig Printf
+using Printf
 function position(ch::Char)
 if isuppercase(ch) 
    return ch-'A'+1
