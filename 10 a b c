@@ -4,3 +4,19 @@ using Plots
 x=1:10e4;
 y=x^2;
 plot(x,y)
+
+
+import Pkg;
+Pkg.add("Plots")
+using Plots
+eq(x)=sind(x)+sind(2X)
+plot(eq,1:500)
+
+
+
+eq(x)=sind(x0+sind(2x0
+eq(generic function with 1 method)
+plot(eq 1:500)
+eq1(generic function with 1 method)
+plot!(eq1,1:500)
+plot(eq,1:500)
