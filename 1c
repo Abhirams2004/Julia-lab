@@ -8,7 +8,7 @@ println("Error:",e)
 end
 function main()
 println("Enter the expression to evaluate:")
-   expression=realine()
+   expression=readline()
 evaluate_expression(expression)
 end
 main()
