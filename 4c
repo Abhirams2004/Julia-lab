@@ -14,7 +14,7 @@ num_terms=parse(Int,readline())
 if num_terms<1
 println("Number of terms should be at least 1")
 else
-fib_series=fibonacci(num-terms)
+fib_series=fibonacci(num_terms)
 println("Fibonaci series of $num_terms terms:")
 println(fib_series)
 end
