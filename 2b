@@ -4,7 +4,7 @@ function calculatePay()
     hours=parse(Float64,readline())
     print("Rate of pay?")
     rate=parse(Float64,readline())
-    if hours<40
+    if hours<=40
 regPay=hours*rate
 ovtPay=0
    else
