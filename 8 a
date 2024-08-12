@@ -1,6 +1,6 @@
 function evaluate_expression(expression::String)
   try
-     result=eval(meta parse(expression))
+     result=eval(meta.parse(expression))
 println("Result:",result)
      catch e
 println("Error:",e)
